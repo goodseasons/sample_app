@@ -41,6 +41,11 @@ group :development, :test do
   gem 'spring'
   #add
   gem 'rspec-rails', '3.1'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
