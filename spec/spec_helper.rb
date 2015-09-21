@@ -50,6 +50,11 @@ Spork.prefork do
     config.expect_with :rspec do |c|
       c.syntax = :expect
     end
+    
+    #goodseasons add. coused by http://loumo.jp/wp/archive/20141208002407/
+    config.include Rails.application.routes.url_helpers
+    
+    
   end
 end
 
